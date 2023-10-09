@@ -1,9 +1,9 @@
-print("Game: Pedra, Papel e Tesoura")
+print("Game: Pedra, Papel e Tesoura, vamos começar!")
 
 opcoes = ["pedra", "papel", "tesoura"]
 
 while True:
-    # Pedir os nomes dos jogadores
+    
     nome_jogador1 = input("Digite o nome do Jogador 1: ")
     nome_jogador2 = input("Digite o nome do Jogador 2: ")
 
@@ -36,7 +36,7 @@ while True:
         else:
             print(f"Parabéns {nome_jogador2}, você venceu!")
 
-        # Perguntar se os jogadores querem jogar novamente
+        
         jogar_novamente = input("Quer jogar novamente? (sim/não): ").lower()
         if jogar_novamente != "sim":
             print("Até logo!")
