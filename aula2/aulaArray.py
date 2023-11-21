@@ -1,11 +1,11 @@
-# for x in range(4):
-#     print(b[x])
-#
+
+
 # alunos = int(input("Quantos alunos tem na sala? "))
 # lista = [""]*alunos
 # for x in range(alunos):
 #     lista[x] = input("Digite o nome dos alunos: ")
 # print(lista)
+
 
 # alunos = int(input("Quantos alunos tem na sala? "))
 # lista = [""]*alunos
@@ -27,8 +27,8 @@
 #       print(nome,[y])
 #       break
 # else:
-#     print("Nome não encontrado!!")
-qtd=0
+#
+qtd = 0
 media=7
 cont = 0
 soma= 0.0
@@ -43,9 +43,9 @@ for x in range(5):
 print(media_turma)
 
 for y in range(5):
-    if lista[i] >= 7
+    if lista[i] >= 7:
         qtd=qtd+1
-print(f"a media da turma é {media_turma}" )
+print(f"a media da turma e: {media_turma}")
 
 
 
